@@ -5,3 +5,7 @@ def test_add():
 
 def test_multiply():
     assert multiply(5, 4) == 20
+from app import register_user
+
+def test_register_user():
+    assert register_user("Atharva") == "User Atharva registered successfully"

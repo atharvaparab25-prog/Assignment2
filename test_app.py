@@ -8,4 +8,4 @@ def test_multiply():
 from app import register_user
 
 def test_register_user():
-    assert register_user("Nidhi") == "User Nidhi registered successfully"
+    assert register_user("Atharva") == "User Atharva registered successfully"
